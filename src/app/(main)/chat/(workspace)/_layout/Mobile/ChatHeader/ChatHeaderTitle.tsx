@@ -24,7 +24,7 @@ const ChatHeaderTitle = memo(() => {
   ]);
   const theme = useTheme();
 
-  const displayTitle = isInbox ? t('inbox.title') : title;
+  const displayTitle = "致远 Chat";
 
   return (
     <MobileNavBarTitle
